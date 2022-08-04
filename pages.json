@@ -1,0 +1,353 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		
+		{
+			"path": "pages/auth/register",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/auth/login",
+			"style": {
+				 "navigationBarTitleText": "登录",
+				"app-plus": {
+					"titleNView": true
+				}
+			}
+		},
+		{
+		    "path" : "pages/First/First",
+		    "style" :                                                                                    
+		    {
+				"navigationStyle":"custom",
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/order/order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+      
+        ,{
+            "path" : "pages/recycle/recycle",
+            "style" :                                                                                    
+            {
+				"navigationStyle":"custom",
+                "navigationBarTitleText": "公司回收",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/my/my",
+           "style": {
+           	"app-plus": {
+           		"titleNView": false
+           	}
+           }
+            
+        }
+        
+        // ,{
+        //     "path" : "pages/childPages/homeSearch",
+        //     "style" :                                                                                    
+        //     {
+        //         "navigationBarTitleText": "全部搜索",
+        //         "enablePullDownRefresh": false
+        //     }
+            
+        // }
+        ,{
+            "path" : "pages/childPages/result",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "搜索结果",
+                "enablePullDownRefresh": false
+				
+            }
+            
+        }
+        ,{
+            "path" : "pages/company/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "公司",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/recycle/searchRes",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "搜索",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/childPages/fillIn",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "预约回收",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/childPages/center/signIn",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "签到",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/childPages/center/IntegralRcd",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "积分记录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/childPages/center/exchange",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "兑换记录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/childPages/center/contribute",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的贡献度",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/childPages/center/incomeRcd",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "收入记录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/childPages/center/mySeting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "设置",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/childPages/center/updatePhone",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改手机号码",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/childPages/center/updatePsw",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改密码",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/First/menu/recyclingMenu",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "回收分类",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/First/goto/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "旧物去向",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/First/goto/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "去向详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/First/recycle/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "附近回收机",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/First/recycle/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "回收机详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/First/store/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "积分商城",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/First/store/exchange",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品详情页",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/First/store/exChangedefault",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "兑换页面",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/First/sport/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "活动详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/order/rec/waiting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "接单详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/order/rec/offsettle",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "结算订单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/order/rec/finish",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "完成订单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/order/score",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "评价",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/order/rec/location",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "回收员位置",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/order/rec/cancel",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "取消订单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uView",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#909399",
+		"selectedColor": "#303133",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/First/First",
+				"iconPath": "static/tabIcons/home1.png",
+				"selectedIconPath": "static/tabIcons/home2.png",
+				"text":"首页"
+			},
+			{
+				"pagePath": "pages/order/order",
+				"iconPath": "static/tabIcons/order1.png",
+				"selectedIconPath": "static/tabIcons/order2.png",
+				"text": "订单"
+			},{
+				"pagePath": "pages/recycle/recycle",
+				"iconPath": "static/tabIcons/back1.png",
+				"selectedIconPath": "static/tabIcons/back2.png",
+				"text": "公司回收"
+			},{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/tabIcons/my1.png",
+				"selectedIconPath": "static/tabIcons/my2.png",
+				"text": "首页"
+			}
+		]
+	}
+}
