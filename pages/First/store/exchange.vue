@@ -1,9 +1,5 @@
 <template>
 <view class="container">
-        <view>
-            <u-swiper height="400" :list="list"></u-swiper>
-        </view>
-
 	<view class="title">
 	    <view class="server"></view>
 	    <view>商品详情</view>
@@ -31,17 +27,6 @@
         <view class="serverContent">服务：{{goodDtl.serviceDetail}}</view>
         <view class="serverContent">详情：{{goodDtl.serviceRemark}}</view>
 
-        <view class="title">
-            <view class="server"></view>
-            <view>商品详情</view>
-
-        </view>
-
-        <view class="imageStyle" v-for="n of 10">
-            <u-image width="100%" height="200rpx" :src="src"></u-image>
-        </view>
-
-
     </view>
 
 </template>
@@ -57,16 +42,7 @@
 	                    width: '100%',
 	                    backgroundColor: 'rgb(0,194,151)'
 	                },
-
-	                src: 'https://img2.baidu.com/it/u=868230394,3111986239&fm=26&fmt=auto&gp=0.jpg',
-	                list: [
-	                    'https://img2.baidu.com/it/u=868230394,3111986239&fm=26&fmt=auto&gp=0.jpg',
-	                    'https://img2.baidu.com/it/u=868230394,3111986239&fm=26&fmt=auto&gp=0.jpg'
-	                ],
-
 	                src: '',
-	                // list:['../../static/swt1.jpg','../../static/swt2.jpg','../../static/swt3.jpg']
-
 	            }
 	        },
 	        onLoad(options) {

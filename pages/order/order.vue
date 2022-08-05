@@ -130,8 +130,6 @@
                        </template>
                        <template v-else>
                            <view class="centre">
-                               <image src="https://cdn.uviewui.com/uview/template/taobao-order.png" mode="">
-                               <image src="https://cdn.uviewui.com/uview/template/taobao-order.png" mode="">
                                <image src="https://cdn.uviewui.com/uview/template/taobao-order.png" mode="widthFix">
                                </image>
                                <view class="explain">

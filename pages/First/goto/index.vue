@@ -44,7 +44,7 @@ import api from '../../../common/apiUtil.js'
 
 </script>
 
-<style>
+<style lang="scss" scoped>
  .container {
         margin: 20px;
     }

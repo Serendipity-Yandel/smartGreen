@@ -168,7 +168,7 @@
 
 </script>
 
-<style>
+<style lang="scss" scoped>
 .storeWrapper{
         width: 100%;
         height: 100vh;

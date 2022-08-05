@@ -9,7 +9,6 @@
 	            </u-cell-item>
 	            <view class="sku">
 	                <view style="margin-top: 15px;">
-	                    <u-image width="200rpx" height="200rpx" :src="src"></u-image>
 	                    <u-image width="200rpx" height="200rpx" :src="$api.SERVER_BASE+goodDtl.coverUrl"></u-image>
 	                </view>
 	                <view class="sku1" style="">
@@ -63,7 +62,7 @@
 	                cusButton: {
 	                    backgroundColor: 'rgb(0,194,151)'
 	                },
-	                src: 'https://img2.baidu.com/it/u=868230394,3111986239&fm=26&fmt=auto&gp=0.jpg',
+	                src: '',
 	                vModelValue: 1,
 	            }
 	        },
