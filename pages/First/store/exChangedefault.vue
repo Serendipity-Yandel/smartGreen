@@ -137,7 +137,7 @@
 
 </script>
 
-<style>
+<style lang="scss" scoped>
 .foot {
         font-size: 20px;
         display: flex;
