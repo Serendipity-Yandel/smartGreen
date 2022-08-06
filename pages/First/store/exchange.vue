@@ -67,7 +67,7 @@
 
 </script>
 
-<style>
+<style lang="scss" scoped>
 .button {
         width: 100%;
         box-sizing: border-box;
