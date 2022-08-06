@@ -145,7 +145,7 @@ import api from '../../common/apiUtil.js'
 
 </script>
 
-<style>
+<style lang="scss" scoped>
 .peopleStyle {
         color: white;
         margin-top: 20px;
